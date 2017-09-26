@@ -1,2 +1,6 @@
 #VS
 uva/uva/
+
+#Xcode
+DerivedData/
+algo.xcodeproj
