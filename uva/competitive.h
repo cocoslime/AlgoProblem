@@ -1,13 +1,17 @@
+
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <cstdio>
 #include <cstdlib>
+#include <algorithm>
 #include <cstring>
 #include <string>
 #include <cmath>
 #include <vector>
+#include <utility>
 #include <climits>
-#include <queue>
+#include <queue> 
+#include <functional> 
 #include <stack>
 #include <map>
 
