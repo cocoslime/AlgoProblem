@@ -48,3 +48,17 @@ public:
   int numDisjointSets() { return numSets; }
   int sizeOfSet(int i) { return setSize[findSet(i)]; }
 };
+
+//descending
+bool compare(pair<int, ii>& a, pair<int, ii>& b) {
+	return a > b;
+}
+
+struct edge {
+	int i, g, w;
+	edge() {}
+	edge(int I, int G, int W) : i(I), g(G), w(W) {}
+	bool operator < (const edge &that) const {
+		return w > that.w;
+	}
+};
