@@ -29,7 +29,7 @@ typedef vector<ii> vii;
 #include <iostream>
 #include <fstream>
 
-ofstream fout("res.txt");
+ofstream fout("/Users/dong/Documents/dev/workspace/AlgoProblem/lg/res.txt");
 ifstream fin("input.txt");
 FILE* fp;
 
@@ -139,15 +139,29 @@ int isInBig(vector<ii>& tri) {
 	else {
 		int out = 0;
 		int in = 0;
+        
+        int inf_check = 0;
 		for (int j = 0; j < 3; j++) {
-			ii coord = ii(10001, 10001);
+			ii out_coord = ii(10001, 10001);
 			int inter_num = 0;
+            inf_check = 0;
 			for (int i = 0; i < coords.size() - 1; i++) {
-				int type = findIntersect(tri[j], coord, coords[i], coords[i + 1]);
-				if (fn(tri[j],coord, coords[i]) == 0 || fn(tri[j],coord, coords[i+1]) == 0) {
-					coord.second -= 1;
-					i = -1;
-					break;
+				int type = findIntersect(tri[j], out_coord, coords[i], coords[i + 1]);
+				if (type == 0) {
+                    if (fn(coords[i], coords[i+1], tri[j]) == 0) { //on line
+                        inter_num = 1;
+                        break;
+                    }
+                    else{
+                        inf_check++;
+                        if (inf_check > 1000) {
+                            cout << "inf" << endl;
+                            return -1;
+                        }
+                        out_coord.second -= 1;
+                        i = -1;
+                        continue;
+                    }
 				}
 				else if (type == 1){
 					inter_num++;
@@ -201,8 +215,9 @@ int getType(vector<ii>& tri) {
 		else {
 			if (isAnyPointInTriangle(tri))
 				return 4;
-			else if (zup_num > 0)
+            else if (zup_num > 0){
 				return 3; // 3 or 4
+            }
 			else
 				cout << -100 << endl;
 			return -100;
@@ -211,7 +226,7 @@ int getType(vector<ii>& tri) {
 }
 
 int main() {
-	fp = fopen("input.txt", "r");//stdin;
+	fp = fopen("/Users/dong/Documents/dev/workspace/AlgoProblem/lg/input.txt", "r");//stdin;
 	int test_case;
 	fscanf(fp, "%d", &test_case);
 	int test_num = 0;
