@@ -1,4 +1,8 @@
 lg/
+#clion
+cmake-build-debug/
+.idea/
+
 
 #Xcode
 DerivedData/
