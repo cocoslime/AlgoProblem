@@ -14,6 +14,8 @@
 #include <functional> 
 #include <stack>
 #include <map>
+#include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -24,11 +26,7 @@ typedef long long ll;
 
 #define INF 1000000000
 
-#include <iostream>
-#include <fstream>
 
-ofstream fout("res.txt");
-FILE* fp;
 
 
 // Union-Find Disjoint Sets Library written in OOP manner, using both path compression and union by rank heuristics

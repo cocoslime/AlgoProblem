@@ -4,5 +4,5 @@ project(AlgoProblem)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(AlgoProblem
-        uva/108.cpp
-        uva/competitive.h)
+        uva/259.cpp
+        uva/competitive.h uva/259.cpp)
