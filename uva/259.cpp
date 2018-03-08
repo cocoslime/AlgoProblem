@@ -1,3 +1,6 @@
+// 4장 그래프
+// Maximum Flow Problem
+// Edmonds-Karp Algorithm
 //
 // Created by dongmin on 18. 1. 17.
 //
@@ -119,9 +122,10 @@ void init() {
 
 void result() {
     mf = 0;
-    while (true){
+    while (true){ // O(VE^2), Edmonds-Karp
         f = 0;
-        vector<bool> checked(38, false); checked[s] = true;
+        // vector<bool> checked(38, false);
+        bitset<38> checked; checked[s] = true;
         queue<int> q; q.push(s);
         p.assign(38, -1);
         while (!q.empty()){
@@ -138,7 +142,6 @@ void result() {
         }
 
         augment(t, INF);
-        // cout << "F : " << f << endl;
         if (f == 0) break;
         mf += f;
     }
