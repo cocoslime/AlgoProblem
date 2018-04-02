@@ -4,4 +4,4 @@ project(AlgoProblem)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(AlgoProblem
-        uva/competitive.h baekjoon/5430.cpp)
+        uva/competitive.h baekjoon/9252.cpp)
