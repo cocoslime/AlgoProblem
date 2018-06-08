@@ -3,5 +3,13 @@ project(AlgoProblem)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(AlgoProblem
-        uva/competitive.h baekjoon/2494.cpp)
+add_executable(2494
+        uva/competitive.h boj/2494.cpp)
+add_executable(1256
+        uva/competitive.h boj/1256.cpp)
+add_executable(1023
+        uva/competitive.h boj/1023.cpp)
+add_executable(2201
+        uva/competitive.h boj/2201.cpp)
+add_executable(3687
+        uva/competitive.h boj/3687.cpp)
