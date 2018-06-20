@@ -11,5 +11,7 @@ add_executable(1023
         uva/competitive.h boj/1023.cpp)
 add_executable(2201
         uva/competitive.h boj/2201.cpp)
-add_executable(3687
-        uva/competitive.h boj/3687.cpp)
+add_executable(3687 boj/3687.cpp)
+
+add_executable(1753 boj/1753.cpp)
+add_executable(1261 boj/1261.cpp)
