@@ -1,5 +1,5 @@
 //
-// Created by Dong's MacBook Pro on 2018. 6. 11..
+// Created by dongmin on 18. 7. 2.
 //
 
 #include <iostream>
@@ -28,13 +28,13 @@ typedef unsigned long long ull;
 
 #define INF 10000000
 
-#define MAXV 20000
+#define MAXN 103
 
 int S;
 int V, E;
 int dist[MAXV];
 
-vector<vii> adjList;
+double adjMat[MAXN][MAXN]; // 0 : source, 1 : destination
 
 void dijkstra(){
     bool checked[MAXV] = {0};
@@ -75,7 +75,7 @@ int main(){
         adjList[src-1].emplace_back(w, dest - 1);
     }
 
-     dijkstra();
+    dijkstra();
 
     for (int i = 0 ; i < V ; i++){
         if (dist[i] == INF)

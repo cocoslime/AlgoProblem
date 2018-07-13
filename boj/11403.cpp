@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
@@ -25,7 +26,6 @@ typedef unsigned long long ull;
 #define INF 10000000
 
 int N;
-int M;
 
 int city[101][101];
 
@@ -41,32 +41,22 @@ void floyd_warshall(){
 
 int main(){
     scanf("%d",&N);
-    scanf("%d",&M);
 
     for ( int j = 0 ; j < N ; j++)
     {
         for ( int k = 0 ; k < N ; k++)
         {
-            city[j][k] = INF;
+            int temp;
+            scanf("%d", &temp);
+            if (temp == 0){
+                city[j][k] = INF;
+            }
+            else{
+                city[j][k] = 1;
+            }
         }
     }
 
-    for (int i = 0 ; i < N ; i++){
-        city[i][i] = 0;
-    }
-
-    for (int i = 0 ; i< M ; i++){
-        int a;
-        int b;
-        int c;
-        scanf("%d",&a);
-        scanf("%d",&b);
-        scanf("%d",&c);
-
-        if (city[a-1][b-1] > c)
-            city[a-1][b-1] = c;
-
-    }
 
     floyd_warshall();
 
@@ -77,7 +67,7 @@ int main(){
             if (city[j][k] > 100000)
                 printf("%d ", 0);
             else
-                printf("%d ",city[j][k]);
+                printf("%d ", 1);
         }
         printf("\n");
     }
