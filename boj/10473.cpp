@@ -44,6 +44,7 @@ void dijkstra(){
         int src = pq.top().second;
         double src_cost = pq.top().first;
 
+
         pq.pop();
         if (checked[src]) continue;
         checked[src] = true;
@@ -56,20 +57,10 @@ void dijkstra(){
                 }
             }
         }
-        /*
-        for (auto pi : adjList[src]){
-            int dest = pi.second;
-            int w = pi.first;
-            if (dist[src] + w < dist[dest]){
-                dist[dest] = dist[src] + w;
-                pq.push(make_pair(-(dist[src] + w), dest));
-            }
-        }
-         */
     }
 }
 
-double calcCost(int i, int j){
+double calcCost(int i, int j, bool is_cannon = true){
     double i_x = coord[i][0];
     double i_y = coord[i][1];
 
@@ -77,6 +68,8 @@ double calcCost(int i, int j){
     double j_y = coord[j][1];
 
     double dist = sqrt((i_x - j_x) * (i_x - j_x) + (i_y - j_y) * (i_y - j_y));
+
+    if (!is_cannon) return dist / 5.0;
 
     if (dist >= 50.0){
         double cost = 2.0 + (dist - 50.0) / 5.0;
@@ -90,35 +83,55 @@ double calcCost(int i, int j){
 }
 
 void makeGraph(){
-    for (int i = 0 ; i < N + 1; i++){
-        for (int j = i + 1; j < N + 2 ; j++){
-            double cost = calcCost(i, j);
+    for (int i = 1; i < N + 2; i++){
+        double cost = calcCost(0, i, false);
+        adjMat[0][i] = cost;
+        adjMat[i][0] = cost;
+
+        double cost2 = calcCost(1, i , false);
+        adjMat[1][i] = cost2;
+        adjMat[i][1] = cost2;
+    }
+
+    for (int i = 2 ; i < N + 2; i++){
+        for (int j = 0 ; j < N + 2; j++){
+            double cost = calcCost(i, j, true);
             adjMat[i][j] = cost;
-            adjMat[j][i] = cost;
         }
     }
+
 }
 
 int main(){
     cin >> coord[0][0] >> coord[0][1];
     cin >> coord[1][0] >> coord[1][1];
 
-    adjMat[0][0] = -1;
-    adjMat[1][1] = -1;
-
     cin >> N;
 
     for (int i = 0 ; i < N ; i++){
         cin >> coord[i + 2][0] >> coord[i+2][1];
+    }
+    makeGraph();
+
+    adjMat[0][0] = -1;
+    adjMat[1][1] = -1;
+
+    for (int i = 0 ; i < N ; i++){
         adjMat[i+2][i+2] = -1;
     }
-
-    makeGraph();
 
     std::fill(dist, dist + MAXN, INF);
 
     dijkstra();
 
     printf("%f\n", dist[1]);
+    /*
+    for (int i = 0 ; i < N + 2; i++){
+        for (int j = 0 ; j < N + 2; j++){
+            cout << adjMat[i][j] << " ";
+        }
+        cout << endl;
+    }
+    */
     return 0;
 }
