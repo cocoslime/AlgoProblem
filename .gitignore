@@ -1,4 +1,4 @@
-lg/
+
 #clion
 cmake-build-debug/
 .idea/
@@ -7,3 +7,9 @@ cmake-build-debug/
 #Xcode
 DerivedData/
 algo.xcodeproj
+
+
+#contest
+lg/
+scpc/
+ucpc/
