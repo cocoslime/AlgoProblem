@@ -12,3 +12,5 @@ add_executable(3687 boj/3687.cpp)
 add_executable(1753 boj/1753.cpp)
 add_executable(1261 boj/1261.cpp)
 add_executable(10473 boj/10473.cpp)
+
+add_executable(uva_1237 uva/1237.cpp)
