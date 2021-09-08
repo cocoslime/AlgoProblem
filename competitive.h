@@ -56,11 +56,13 @@ bool compare(pair<int, ii>& a, pair<int, ii>& b) {
 	return a > b;
 }
 
-struct edge {
-	int i, g, w;
-	edge() {}
-	edge(int I, int G, int W) : i(I), g(G), w(W) {}
-	bool operator < (const edge &that) const {
-		return w > that.w;
+template <typename T>
+struct Edge{
+	unsigned src, dst;
+    T weight;
+    Edge() {}
+    Edge(unsigned I, unsigned G, T W) : src(I), dst(G), weight(W) {}
+	bool operator < (const Edge &that) const {
+		return w < that.w;
 	}
 };
