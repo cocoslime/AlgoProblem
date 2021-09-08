@@ -56,11 +56,34 @@ bool compare(pair<int, ii>& a, pair<int, ii>& b) {
 	return a > b;
 }
 
-struct edge {
-	int i, g, w;
-	edge() {}
-	edge(int I, int G, int W) : i(I), g(G), w(W) {}
-	bool operator < (const edge &that) const {
-		return w > that.w;
+template <typename T>
+struct Edge{
+	unsigned src, dst;
+    T weight;
+    Edge() {}
+    Edge(unsigned I, unsigned G, T W) : src(I), dst(G), weight(W) {}
+	bool operator < (const Edge &that) const {
+		return w < that.w;
 	}
 };
+
+vector<pair<unsigned, int>> adj_list;
+
+vector<string> split(string input, char delimiter) {
+    vector<string> answer;
+    stringstream ss(input);
+    string temp;
+
+    while (getline(ss, temp, delimiter)) {
+        answer.push_back(temp);
+    }
+
+    return answer;
+}
+
+int strToInt(string str) {
+    std::stringstream ss(str);
+    int n;
+    ss >> n;
+    return n;
+}
