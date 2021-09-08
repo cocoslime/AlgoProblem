@@ -66,3 +66,24 @@ struct Edge{
 		return w < that.w;
 	}
 };
+
+vector<pair<unsigned, int>> adj_list;
+
+vector<string> split(string input, char delimiter) {
+    vector<string> answer;
+    stringstream ss(input);
+    string temp;
+
+    while (getline(ss, temp, delimiter)) {
+        answer.push_back(temp);
+    }
+
+    return answer;
+}
+
+int strToInt(string str) {
+    std::stringstream ss(str);
+    int n;
+    ss >> n;
+    return n;
+}
