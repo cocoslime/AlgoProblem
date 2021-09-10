@@ -1,21 +1,29 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
+
+#include <string>
+#include <vector>
 #include <cstdio>
 #include <cstdlib>
 #include <algorithm>
+#include <unordered_map>
 #include <cstring>
 #include <string>
 #include <cmath>
+#include <set>
 #include <vector>
 #include <utility>
 #include <climits>
-#include <queue> 
-#include <functional> 
+#include <queue>
+#include <functional>
 #include <stack>
 #include <map>
 #include <iostream>
 #include <fstream>
+#include <map>
+#include <sstream>
+#include <numeric>
 
 using namespace std;
 
@@ -40,8 +48,8 @@ public:
     p.assign(N, 0); for (int i = 0; i < N; i++) p[i] = i; }
   int findSet(int i) { return (p[i] == i) ? i : (p[i] = findSet(p[i])); }
   bool isSameSet(int i, int j) { return findSet(i) == findSet(j); }
-  void unionSet(int i, int j) { 
-    if (!isSameSet(i, j)) { numSets--; 
+  void unionSet(int i, int j) {
+    if (!isSameSet(i, j)) { numSets--;
     int x = findSet(i), y = findSet(j);
     // rank is used to keep the tree short
     if (rank[x] > rank[y]) { p[y] = x; setSize[x] += setSize[y]; }
@@ -87,3 +95,17 @@ int strToInt(string str) {
     ss >> n;
     return n;
 }
+
+vector<int> split(string input, char delimiter) {
+    vector<int> answer;
+    stringstream ss(input);
+    string temp;
+
+    while (getline(ss, temp, delimiter)) {
+        answer.push_back(strToInt(temp));
+    }
+
+    return answer;
+}
+
+

@@ -2,7 +2,7 @@
 #clion
 cmake-build-debug/
 .idea/
-
+CMakeLists.txt
 
 #Xcode
 DerivedData/
@@ -13,3 +13,4 @@ algo.xcodeproj
 lg/
 scpc/
 ucpc/
+toss2021/
