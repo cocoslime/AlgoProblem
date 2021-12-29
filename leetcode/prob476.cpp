@@ -49,7 +49,6 @@ int findComplement(int num) {
 }
 
 int main() {
-
     cout << findComplement(5) << endl;
     return 0;
 }
