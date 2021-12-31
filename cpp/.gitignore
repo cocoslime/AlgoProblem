@@ -10,7 +10,4 @@ algo.xcodeproj
 
 
 #contest
-lg/
-scpc/
-ucpc/
-toss2021/
+contest/
