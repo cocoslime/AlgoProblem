@@ -1,3 +1,5 @@
+package leetcode.prob876;
+
 /**
  * Definition for singly-linked list.
  */
@@ -39,12 +41,11 @@ class Solution {
             }
         }
     }
-}
 
-public class prob876 {
     public static void main(String[] args) {
         Solution solution = new Solution();
         ListNode head = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, null))));
         solution.middleNode(head);
     }
 }
+
