@@ -2,6 +2,8 @@
 // Created by Dongmin on 2022/01/19.
 //
 
+// TODO : try memory O(1) version. (floyd cycle algorithm)
+
 class Solution {
 public:
     set<ListNode*> isPassed;
