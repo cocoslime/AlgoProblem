@@ -9,12 +9,12 @@
 
 * [Kakao Blind 2021](https://github.com/cocoslime/AlgoProblem/tree/master/cpp/kakao_blind_2021)
   * 문제 출처 : [프로그래머스](https://programmers.co.kr/learn/challenges)
-* [LeetCode] (https://github.com/cocoslime/AlgoProblem/tree/master/cpp/leetcode)
+* [LeetCode](https://github.com/cocoslime/AlgoProblem/tree/master/cpp/leetcode)
   * 문제 출처 : [LeetCode](https://leetcode.com/problemset/all/)
-* [Baekjoon] (https://github.com/cocoslime/AlgoProblem/tree/master/cpp/boj)
+* [Baekjoon](https://github.com/cocoslime/AlgoProblem/tree/master/cpp/boj)
   * 문제 출처 : [Baekjoon](https://www.acmicpc.net/)
   
 ## Java / Kotlin
 
-* [LeetCode] (https://github.com/cocoslime/AlgoProblem/tree/master/java/src/leetcode)
+* [LeetCode](https://github.com/cocoslime/AlgoProblem/tree/master/java/src/leetcode)
   * 문제 출처 : [LeetCode](https://leetcode.com/problemset/all/)
