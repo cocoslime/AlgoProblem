@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d2769b8-970e-451f-a49a-9c8fcbaa0731" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob1026/prob1026.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob1249/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob1288/prob1288.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob133/prob133.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob136/prob136.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob138/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob141/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob148/prob148.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob171/prob171.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob2/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob20/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob21/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob228/prob228.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob24/prob24.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob338/prob338.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob39/prob39.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob392/prob392.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob402/prob402.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob413/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob61/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob662/prob662.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob67/prob67.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob71/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob82/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob847/prob847.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/prob876/prob876.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/util.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/prob876.java" />
+        <option value="$PROJECT_DIR$/src/prob1026.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob876/prob876.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob1026/prob1026.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob67/prob67.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob136/prob136.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob402/prob402.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob39/prob39.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob24/prob24.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob1288/prob1288.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob171.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob171/prob171.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob133/prob133.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob847/prob847.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob148/prob148.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob662/prob662.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/util.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob228/prob228.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob338/prob338.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob392/prob392.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/prob413/Solution.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectId" id="262Pe6w56IgUZ0AtclcgC97FwzL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1646311016870" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/leetcode/prob171" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.SolutionKt (1)">
+    <configuration name="SolutionKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.prob1249.SolutionKt" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.prob71.SolutionKt" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.SolutionKt (1)" />
+        <item itemvalue="Kotlin.SolutionKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d2769b8-970e-451f-a49a-9c8fcbaa0731" name="Default Changelist" comment="" />
+      <created>1640939668495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640939668495</updated>
+      <workItem from="1640939672590" duration="1155000" />
+      <workItem from="1641818306691" duration="1158000" />
+      <workItem from="1644918562390" duration="809000" />
+      <workItem from="1645189644693" duration="5289000" />
+      <workItem from="1645257856348" duration="1548000" />
+      <workItem from="1645267604437" duration="1917000" />
+      <workItem from="1645366563273" duration="1971000" />
+      <workItem from="1645398901707" duration="1295000" />
+      <workItem from="1645521957121" duration="622000" />
+      <workItem from="1645615234040" duration="2352000" />
+      <workItem from="1645845310749" duration="1505000" />
+      <workItem from="1645884148320" duration="4465000" />
+      <workItem from="1645930199239" duration="2824000" />
+      <workItem from="1645934087840" duration="628000" />
+      <workItem from="1646045657935" duration="1238000" />
+      <workItem from="1646095562531" duration="1029000" />
+      <workItem from="1646220621324" duration="497000" />
+      <workItem from="1646309152927" duration="1912000" />
+      <workItem from="1646618806025" duration="595000" />
+      <workItem from="1646726817174" duration="533000" />
+      <workItem from="1646833187181" duration="993000" />
+      <workItem from="1646918464881" duration="916000" />
+      <workItem from="1647007876009" duration="631000" />
+      <workItem from="1647083901018" duration="2167000" />
+      <workItem from="1647169056952" duration="710000" />
+      <workItem from="1647271460721" duration="2184000" />
+      <workItem from="1647312629658" duration="2625000" />
+      <workItem from="1647423199551" duration="2714000" />
+    </task>
+    <task id="LOCAL-00001" summary="prob 136">
+      <created>1644919270286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644919270287</updated>
+    </task>
+    <task id="LOCAL-00002" summary="prob 402">
+      <created>1645196935449</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645196935449</updated>
+    </task>
+    <task id="LOCAL-00003" summary="prob 24">
+      <created>1645270148382</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645270148382</updated>
+    </task>
+    <task id="LOCAL-00004" summary="prob 171 kt">
+      <created>1645522535301</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645522535301</updated>
+    </task>
+    <task id="LOCAL-00005" summary="prob 133 kt">
+      <created>1645618291769</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645618291770</updated>
+    </task>
+    <task id="LOCAL-00006" summary="prob847 kt - discuss">
+      <created>1645847175027</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645847175027</updated>
+    </task>
+    <task id="LOCAL-00007" summary="prob847 kt - discuss">
+      <created>1645847191776</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645847191776</updated>
+    </task>
+    <task id="LOCAL-00008" summary="prob148.kt mergesort">
+      <created>1645888706613</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645888706613</updated>
+    </task>
+    <task id="LOCAL-00009" summary="prob21.kt">
+      <created>1646619416184</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646619416184</updated>
+    </task>
+    <task id="LOCAL-00010" summary="prob141">
+      <created>1646727175120</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1646727175120</updated>
+    </task>
+    <task id="LOCAL-00011" summary="prob 82 kt">
+      <created>1646834030309</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1646834030309</updated>
+    </task>
+    <task id="LOCAL-00012" summary="prob 2 kt">
+      <created>1646919438904</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1646919438904</updated>
+    </task>
+    <task id="LOCAL-00013" summary="prob 61 kt">
+      <created>1647008467439</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647008467439</updated>
+    </task>
+    <task id="LOCAL-00014" summary="prob 20 kt">
+      <created>1647169597798</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647169597798</updated>
+    </task>
+    <task id="LOCAL-00015" summary="prob 71kt">
+      <created>1647274504743</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647274504743</updated>
+    </task>
+    <task id="LOCAL-00016" summary="prob 1249 kt">
+      <created>1647315993663</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1647315993664</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32214000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08146965" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32673267" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20656934" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20990099" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32959184" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="prob 136" />
+    <MESSAGE value="prob 402" />
+    <MESSAGE value="prob 24" />
+    <MESSAGE value="prob 171 kt" />
+    <MESSAGE value="prob 133 kt" />
+    <MESSAGE value="prob847 kt - discuss" />
+    <MESSAGE value="prob148.kt mergesort" />
+    <MESSAGE value="prob21.kt" />
+    <MESSAGE value="prob141" />
+    <MESSAGE value="prob 82 kt" />
+    <MESSAGE value="prob 2 kt" />
+    <MESSAGE value="prob 61 kt" />
+    <MESSAGE value="prob 20 kt" />
+    <MESSAGE value="prob 71kt" />
+    <MESSAGE value="prob 1249 kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="prob 1249 kt" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/prob39/prob39.kt</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/prob24/prob24.kt</url>
+          <line>47</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/prob1288/prob1288.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/prob39/prob39.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/prob662/prob662.kt</url>
+          <line>48</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/prob662/prob662.kt</url>
+          <line>60</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/prob71/Solution.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob1026/prob1026.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="18" selection-end-line="51" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="141" column="57" selection-start-line="141" selection-start-column="57" selection-end-line="141" selection-end-column="57" />
+          <folding>
+            <element signature="e#5697#5698#0" expanded="true" />
+            <element signature="e#5728#5729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/kotlin/text/Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="500" column="25" selection-start-line="500" selection-start-column="25" selection-end-line="500" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/generated/_Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="270" column="18" selection-start-line="270" selection-start-column="18" selection-end-line="270" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/kotlin/TextH.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="111" column="25" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob876/prob876.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob67/prob67.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" selection-start-line="43" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob136/prob136.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob402/prob402.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" selection-start-line="44" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob24/prob24.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/generated/_ArraysJvm.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-965">
+          <caret line="1672" column="28" selection-start-line="1672" selection-start-column="28" selection-end-line="1672" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib.jar!/kotlin/collections/ArraysKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="329" column="35" selection-start-line="329" selection-start-column="35" selection-end-line="329" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/kotlin/comparisons/Comparisons.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="167" column="36" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob1288/prob1288.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob39/prob39.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="41" selection-start-line="41" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="133" column="13" lean-forward="true" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="359" column="13" selection-start-line="359" selection-start-column="13" selection-end-line="359" selection-end-column="13" />
+          <folding>
+            <element signature="e#11213#11214#0" expanded="true" />
+            <element signature="e#11253#11254#0" expanded="true" />
+            <element signature="e#18840#18841#0" expanded="true" />
+            <element signature="e#18867#18868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9873" column="31" selection-start-line="9873" selection-start-column="31" selection-end-line="9873" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="388" column="30" selection-start-line="388" selection-start-column="30" selection-end-line="388" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob171/prob171.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob133/prob133.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob847/prob847.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob148/prob148.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob662/prob662.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/util.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob228/prob228.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob338/prob338.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob392/prob392.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/prob413/Solution.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
