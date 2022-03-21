@@ -14,7 +14,7 @@
 * [Baekjoon](https://github.com/cocoslime/AlgoProblem/tree/master/cpp/boj)
   * 문제 출처 : [Baekjoon](https://www.acmicpc.net/)
   
-## Java / Kotlin
+## Kotlin
 
-* [LeetCode](https://github.com/cocoslime/AlgoProblem/tree/master/java/src/leetcode)
+* [LeetCode](https://github.com/cocoslime/AlgoProblem/tree/master/kotlin/src/leetcode)
   * 문제 출처 : [LeetCode](https://leetcode.com/problemset/all/)
