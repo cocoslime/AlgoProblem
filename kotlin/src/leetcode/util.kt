@@ -31,3 +31,31 @@ fun makeTreeNode(list: List<Int?>): TreeNode? {
     }
     return treeNodeList[0]
 }
+
+
+class ListNode(var `val`: Int) {
+    var next: ListNode? = null
+}
+
+fun ListNode.addNext(`val`: Int) : ListNode {
+    next = ListNode(`val`)
+    return next as ListNode
+}
+
+fun ListNode.print() {
+    println(`val`)
+    next?.print()
+}
+
+fun swapNextListNode(first : ListNode, second : ListNode) {
+    var nextTemp : ListNode? = first.next!!
+    first.next = second.next
+    second.next = nextTemp
+
+    val firstNext = first.next!!
+    val secondNext = second.next!!
+
+    nextTemp = firstNext.next
+    firstNext.next = secondNext.next
+    secondNext.next = nextTemp
+}
