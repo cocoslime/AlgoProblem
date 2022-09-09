@@ -59,3 +59,12 @@ fun swapNextListNode(first : ListNode, second : ListNode) {
     firstNext.next = secondNext.next
     secondNext.next = nextTemp
 }
+
+
+fun Array<IntArray>.print() {
+    print("[")
+    this.forEach {
+        print("${it.asList()},")
+    }
+    println("]")
+}
