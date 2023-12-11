@@ -1,4 +1,4 @@
-package leetcode.fail.prob32
+package leetcode.ing.prob32
 
 import java.util.*
 

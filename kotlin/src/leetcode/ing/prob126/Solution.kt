@@ -1,4 +1,4 @@
-package leetcode.fail.prob126
+package leetcode.ing.prob126
 
 class Solution {
     val adjList = Array<MutableList<Int>>(501){
