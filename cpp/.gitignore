@@ -11,3 +11,7 @@ algo.xcodeproj
 
 #contest
 contest/
+
+#mac
+*/._DS_Store
+.DS_Store
