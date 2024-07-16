@@ -4,35 +4,37 @@ import kotlin.math.min
 
 class Solution {
     fun getDirections(root: TreeNode?, startValue: Int, destValue: Int): String {
-        val (_, startPath, destPath) = dfs(root!!, startValue, destValue)
+        val queue = ArrayDeque<Pair<TreeNode, String>>()
+        var startPath: String? = null
+        var destPath: String? = null
 
-        return startPath+destPath
-    }
+        queue.add(root!! to "")
+        while (queue.isNotEmpty() || !(startPath != null && destPath != null)) {
+            val (node, path) = queue.removeFirst()
+            if (node.`val` == startValue) {
+                startPath = path
+            }
+            if (node.`val` == destValue) {
+                destPath = path
+            }
 
-    private fun dfs(node: TreeNode, startValue: Int, destValue: Int): Triple<Boolean, String?, String?> {
-        val leftResult = node.left?.let { dfs(it, startValue, destValue) }
-        if (leftResult?.first == true) return leftResult
-        val rightResult = node.right?.let { dfs(it, startValue, destValue) }
-        if (rightResult?.first == true) return rightResult
-
-        val nextSecond = if (leftResult?.second != null) {
-            leftResult.second + "U"
-        } else if (rightResult?.second != null) {
-            rightResult.second + "U"
-        } else if (node.`val` == startValue) {
-            ""
-        } else {
-            null
+            node.left?.let {
+                queue.add(it to (path + "L"))
+            }
+            node.right?.let {
+                queue.add(it to (path + "R"))
+            }
         }
-        val nextThird = if (leftResult?.third != null) {
-            "L" + leftResult.third
-        } else if (rightResult?.third != null) {
-            "R" + rightResult.third
-        } else if (node.`val` == destValue) {
-            ""
-        } else null
 
-        return if (nextSecond != null && nextThird != null) Triple(true, nextSecond, nextThird)
-        else Triple(false, nextSecond, nextThird)
+        var dropCount = 0
+        for (i in 0 until min(startPath.length, destPath.length)) {
+            if (startPath[i] != destPath[i]) {
+                dropCount = i
+                break
+            }
+            dropCount++
+        }
+
+        return String(CharArray(startPath.length - dropCount) { 'U' }) + destPath.drop(dropCount)
     }
 }
