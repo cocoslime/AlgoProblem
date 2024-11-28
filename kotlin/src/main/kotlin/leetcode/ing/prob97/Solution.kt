@@ -1,4 +1,4 @@
-package leetcode.fail.prob97
+package leetcode.ing.prob97
 
 class Solution {
     val cache = Array<Array<Array<Int>>>(200){

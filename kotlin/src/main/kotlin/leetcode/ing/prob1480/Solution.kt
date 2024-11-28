@@ -1,4 +1,4 @@
-package leetcode.fail.prob1480
+package leetcode.ing.prob1480
 
 class Solution {
     fun runningSum(nums: IntArray): IntArray {

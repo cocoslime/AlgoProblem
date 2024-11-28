@@ -1,4 +1,4 @@
-package leetcode.fail.prob354
+package leetcode.ing.prob354
 
 class Solution {
     lateinit var cache : IntArray
